@@ -17,8 +17,8 @@
   "author": {
     "name": "Serghei Grigoruta",
     "url": "https://github.com/phoenix3008"
-  }
-  "license": "MIT"
+  },
+  "license": "MIT",
   "engines": {
     "brackets": ">=0.31.0"
   }
