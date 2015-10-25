@@ -18,11 +18,7 @@
     "brackets",
     "extension"
   ],
-  "author": {
-    "name": "Serghei Grigoruta",
-    "url": "https://github.com/phoenix3008",
-    "email": "phoenix92@inbox.ru"
-  },
+  "author": "Serghei Grigoruta <phoenix92@inbox.ru> (https://github.com/phoenix3008)",
   "license": "MIT",
   "engines": {
     "brackets": ">=0.30.0"
