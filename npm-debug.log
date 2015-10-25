@@ -1,0 +1,22 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'edit',
+1 verbose cli   'package.json' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose stack Error: ENOENT: no such file or directory, lstat '/Users/serghei/Library/Application Support/Brackets/extensions/user/stylus-autocompile/node_modules/package.json'
+4 verbose stack     at Error (native)
+5 verbose cwd /Users/serghei/Library/Application Support/Brackets/extensions/user/stylus-autocompile
+6 error Darwin 14.4.0
+7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "edit" "package.json"
+8 error node v4.2.1
+9 error npm  v2.14.7
+10 error path /Users/serghei/Library/Application Support/Brackets/extensions/user/stylus-autocompile/node_modules/package.json
+11 error code ENOENT
+12 error errno -2
+13 error syscall lstat
+14 error enoent ENOENT: no such file or directory, lstat '/Users/serghei/Library/Application Support/Brackets/extensions/user/stylus-autocompile/node_modules/package.json'
+14 error enoent This is most likely not a problem with npm itself
+14 error enoent and is related to npm not being able to find a file.
+15 verbose exit [ -2, true ]

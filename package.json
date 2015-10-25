@@ -1,7 +1,9 @@
 {
   "name": "stylus-autocompile",
+  "title: "Stylus Auto Compile",
   "version": "1.0.0",
   "description": "Extension for Brackets - autocompile stylus files into css",
+  "homepage": "https://github.com/phoenix3008/stylus-autocompile",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +14,12 @@
     "brackets",
     "extension"
   ],
-  "author": "Serghei Grigoruta",
+  "author": {
+    "name": "Serghei Grigoruta",
+    "url": "https://github.com/phoenix3008"
+  }
   "license": "MIT"
+  "engines": {
+    "brackets": ">=0.31.0"
+  }
 }
