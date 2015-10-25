@@ -1,0 +1,21 @@
+{
+  "name": "stylus-compiler",
+  "version": "1.0.0",
+  "description": "Stylus Compiler Extension for Brackets",
+  "main": "StylusCompiler.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "stylus",
+    "compiler",
+    "brackets",
+    "extension"
+  ],
+  "author": "Serghei Grigoruta",
+  "license": "ISC",
+  "dependencies": {
+    "mkpath": "^0.1.0",
+    "stylus": "^0.52.4"
+  }
+}
