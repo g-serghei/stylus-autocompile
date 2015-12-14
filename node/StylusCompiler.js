@@ -44,7 +44,7 @@ function mkfile(filepath, content, callback) {
     });
 }
 
-// compile the given less file
+// compile the given stylus file
 function compile(stylusFile, callback) {
     fs.readFile(stylusFile, 'utf8', function (err, buffer) {
         if (err) {
@@ -61,8 +61,8 @@ function compile(stylusFile, callback) {
                 prefix: '',
                 paths: [stylusPath]
             },
-            options = extend(defaults, readOptions(content)),
-            style = stylus(content, options);
+            options = extend(defaults, readOptions(content));
+            
 
         // main is set: compile the referenced file instead
         if (options.main) {
@@ -88,7 +88,9 @@ function compile(stylusFile, callback) {
         }
         
         cssFile = path.resolve(stylusPath, cssFilename);
-
+        
+        options.filename = cssFilename;
+        var style = stylus(content, options);
         
         style.render(function (err, css) {
             if (err) {
